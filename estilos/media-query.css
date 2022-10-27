@@ -1,0 +1,9 @@
+@charset "UTF8";
+
+@media  screen and (max-width:500px) {
+    #corpo { 
+        width: ;
+        height: 633px;
+    }
+    #foto { width: 100%;}
+}
