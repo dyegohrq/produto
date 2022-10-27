@@ -48,4 +48,36 @@ font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: hsl(30, 38%, 92%);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#corpo {
+    background-color: white;
+    width: 350px;
+    height: 600px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+#foto {
+    display: block;
+    background: hsl(30, 38%, 92%) url(../images/image-product-mobile.jpg) no-repeat;
+    background-size: contain;
+    max-width: 500px;
+    height: 41%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.conteudo {
+    height: 53%;
+}
 
