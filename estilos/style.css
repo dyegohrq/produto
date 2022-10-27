@@ -78,6 +78,7 @@ body {
 }
 
 .conteudo {
+    display: block;
     position: relative;
     height: 59%;
     padding: 25px;
@@ -141,9 +142,9 @@ button {
     transition: background-color .5s;
 }
 
-button:hover {
+/*button:hover {
     background-color: rgb(27, 58, 47);
-}
+}*/
 
 .adicionar {
     color: white;
