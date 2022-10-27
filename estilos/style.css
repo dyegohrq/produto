@@ -129,9 +129,10 @@ h1 {
     top: 12px;
 }
 
+
 button {
     padding: 15px;
-    width: 58vw;
+    width: 300px;
     text-align: center;
     background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
