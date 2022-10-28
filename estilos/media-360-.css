@@ -1,45 +1,8 @@
 @charset "UTF-8";
+
+@media screen and (max-width: 360px) {
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-/*
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Dark cyan: hsl(158, 36%, 37%)
-- Cream: hsl(30, 38%, 92%)
-
-### Neutral
-
-- Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
-- White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 14px
-
-### Font
-
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
-font-family: 'Montserrat', sans-serif;
-
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-font-family: 'Fraunces', serif;
-- Weights: 700
-
-*/
 
 * {
     margin: 0;
@@ -57,15 +20,13 @@ body {
 
 #corpo {
     background-color: white;
-    width: 350px;
-    height: 630px;
-
+    width: 294px;
+    height: 533px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
-
     transition: width 1s, height 1s;
     transition-timing-function: ease;
 }
@@ -97,15 +58,17 @@ h1 {
 
 .destaque {
     font-family: 'Fraunces', serif;
-    font-size: 2.1em;
+    font-size: 1.3em;
     font-weight: bolder;
     line-height: 1em;
     margin-bottom: 10px;
+    width: 200px;
+
 }
 
 .texto {
     font-weight: 600;
-    font-size: .9em;
+    font-size: .8em;
     color: grey;
     line-height: 1.7em;
     margin-bottom: 15px;
@@ -135,8 +98,8 @@ h1 {
 
 
 button {
-    padding: 15px;
-    width: 300px;
+    padding: 13px;
+    width: 239px;
     text-align: center;
     background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
@@ -150,4 +113,5 @@ button {
     font-weight: bolder;
     vertical-align: top;
     margin-left: 7px;
+}
 }
