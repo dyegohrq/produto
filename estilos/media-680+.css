@@ -5,6 +5,11 @@
     #corpo {
         min-width: 644px;
         height: 484px;
+        transition: box-shadow .4s;
+    }
+
+    #corpo:hover {
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.53);
     }
 
     #foto {
